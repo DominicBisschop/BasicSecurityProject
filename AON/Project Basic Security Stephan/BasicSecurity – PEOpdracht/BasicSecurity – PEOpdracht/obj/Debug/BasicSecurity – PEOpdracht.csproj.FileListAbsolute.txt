@@ -1,0 +1,39 @@
+C:\Users\Stephan\Desktop\PXL\BasicSecurityGIT\Encryption-steganography-application\BasicSecurity – PEOpdracht\BasicSecurity – PEOpdracht\bin\Debug\BasicSecurity – PEOpdracht.exe.config
+C:\Users\Stephan\Desktop\PXL\BasicSecurityGIT\Encryption-steganography-application\BasicSecurity – PEOpdracht\BasicSecurity – PEOpdracht\bin\Debug\BasicSecurity – PEOpdracht.exe
+C:\Users\Stephan\Desktop\PXL\BasicSecurityGIT\Encryption-steganography-application\BasicSecurity – PEOpdracht\BasicSecurity – PEOpdracht\bin\Debug\BasicSecurity – PEOpdracht.pdb
+C:\Users\Stephan\Desktop\PXL\BasicSecurityGIT\Encryption-steganography-application\BasicSecurity – PEOpdracht\BasicSecurity – PEOpdracht\obj\Debug\BasicSecurity___PEOpdracht.DecrypteerForm.resources
+C:\Users\Stephan\Desktop\PXL\BasicSecurityGIT\Encryption-steganography-application\BasicSecurity – PEOpdracht\BasicSecurity – PEOpdracht\obj\Debug\BasicSecurity___PEOpdracht.EncrypteerForm.resources
+C:\Users\Stephan\Desktop\PXL\BasicSecurityGIT\Encryption-steganography-application\BasicSecurity – PEOpdracht\BasicSecurity – PEOpdracht\obj\Debug\BasicSecurity___PEOpdracht.HomeForm.resources
+C:\Users\Stephan\Desktop\PXL\BasicSecurityGIT\Encryption-steganography-application\BasicSecurity – PEOpdracht\BasicSecurity – PEOpdracht\obj\Debug\BasicSecurity___PEOpdracht.Properties.Resources.resources
+C:\Users\Stephan\Desktop\PXL\BasicSecurityGIT\Encryption-steganography-application\BasicSecurity – PEOpdracht\BasicSecurity – PEOpdracht\obj\Debug\BasicSecurity___PEOpdracht.Settings.resources
+C:\Users\Stephan\Desktop\PXL\BasicSecurityGIT\Encryption-steganography-application\BasicSecurity – PEOpdracht\BasicSecurity – PEOpdracht\obj\Debug\BasicSecurity – PEOpdracht.csproj.GenerateResource.Cache
+C:\Users\Stephan\Desktop\PXL\BasicSecurityGIT\Encryption-steganography-application\BasicSecurity – PEOpdracht\BasicSecurity – PEOpdracht\obj\Debug\BasicSecurity – PEOpdracht.exe
+C:\Users\Stephan\Desktop\PXL\BasicSecurityGIT\Encryption-steganography-application\BasicSecurity – PEOpdracht\BasicSecurity – PEOpdracht\obj\Debug\BasicSecurity – PEOpdracht.pdb
+C:\Users\Stephan\Desktop\PXL\BasicSecurityGIT\Encryption-steganography-application\BasicSecurity – PEOpdracht\BasicSecurity – PEOpdracht\obj\Debug\BasicSecurity___PEOpdracht.SteganographyForm.resources
+C:\Users\Stephan\Desktop\PXL\BasicSecurityGIT\Encryption-steganography-application\BasicSecurity – PEOpdracht\BasicSecurity – PEOpdracht\obj\Debug\BasicSecurity – PEOpdracht.csprojResolveAssemblyReference.cache
+D:\PXL\2e jaar\BasicSecurityGIT\Encryption-steganography-application\BasicSecurity – PEOpdracht\BasicSecurity – PEOpdracht\bin\Debug\BasicSecurity – PEOpdracht.exe.config
+D:\PXL\2e jaar\BasicSecurityGIT\Encryption-steganography-application\BasicSecurity – PEOpdracht\BasicSecurity – PEOpdracht\obj\Debug\BasicSecurity – PEOpdracht.exe
+D:\PXL\2e jaar\BasicSecurityGIT\Encryption-steganography-application\BasicSecurity – PEOpdracht\BasicSecurity – PEOpdracht\obj\Debug\BasicSecurity – PEOpdracht.pdb
+D:\PXL\2e jaar\BasicSecurityGIT\Encryption-steganography-application\BasicSecurity – PEOpdracht\BasicSecurity – PEOpdracht\bin\Debug\BasicSecurity – PEOpdracht.exe
+D:\PXL\2e jaar\BasicSecurityGIT\Encryption-steganography-application\BasicSecurity – PEOpdracht\BasicSecurity – PEOpdracht\bin\Debug\BasicSecurity – PEOpdracht.pdb
+D:\PXL\2e jaar\BasicSecurityGIT\Encryption-steganography-application\BasicSecurity – PEOpdracht\BasicSecurity – PEOpdracht\obj\Debug\BasicSecurity – PEOpdracht.csprojResolveAssemblyReference.cache
+D:\PXL\2e jaar\BasicSecurityGIT\Encryption-steganography-application\BasicSecurity – PEOpdracht\BasicSecurity – PEOpdracht\obj\Debug\BasicSecurity___PEOpdracht.DecrypteerForm.resources
+D:\PXL\2e jaar\BasicSecurityGIT\Encryption-steganography-application\BasicSecurity – PEOpdracht\BasicSecurity – PEOpdracht\obj\Debug\BasicSecurity___PEOpdracht.EncrypteerForm.resources
+D:\PXL\2e jaar\BasicSecurityGIT\Encryption-steganography-application\BasicSecurity – PEOpdracht\BasicSecurity – PEOpdracht\obj\Debug\BasicSecurity___PEOpdracht.HomeForm.resources
+D:\PXL\2e jaar\BasicSecurityGIT\Encryption-steganography-application\BasicSecurity – PEOpdracht\BasicSecurity – PEOpdracht\obj\Debug\BasicSecurity___PEOpdracht.Properties.Resources.resources
+D:\PXL\2e jaar\BasicSecurityGIT\Encryption-steganography-application\BasicSecurity – PEOpdracht\BasicSecurity – PEOpdracht\obj\Debug\BasicSecurity___PEOpdracht.Settings.resources
+D:\PXL\2e jaar\BasicSecurityGIT\Encryption-steganography-application\BasicSecurity – PEOpdracht\BasicSecurity – PEOpdracht\obj\Debug\BasicSecurity___PEOpdracht.SteganographyForm.resources
+D:\PXL\2e jaar\BasicSecurityGIT\Encryption-steganography-application\BasicSecurity – PEOpdracht\BasicSecurity – PEOpdracht\obj\Debug\BasicSecurity – PEOpdracht.csproj.GenerateResource.Cache
+E:\PXL\Basic Security\Encryption-steganography-application\BasicSecurity – PEOpdracht\BasicSecurity – PEOpdracht\bin\Debug\BasicSecurity – PEOpdracht.exe.config
+E:\PXL\Basic Security\Encryption-steganography-application\BasicSecurity – PEOpdracht\BasicSecurity – PEOpdracht\obj\Debug\BasicSecurity – PEOpdracht.exe
+E:\PXL\Basic Security\Encryption-steganography-application\BasicSecurity – PEOpdracht\BasicSecurity – PEOpdracht\obj\Debug\BasicSecurity – PEOpdracht.pdb
+E:\PXL\Basic Security\Encryption-steganography-application\BasicSecurity – PEOpdracht\BasicSecurity – PEOpdracht\bin\Debug\BasicSecurity – PEOpdracht.exe
+E:\PXL\Basic Security\Encryption-steganography-application\BasicSecurity – PEOpdracht\BasicSecurity – PEOpdracht\bin\Debug\BasicSecurity – PEOpdracht.pdb
+E:\PXL\Basic Security\Encryption-steganography-application\BasicSecurity – PEOpdracht\BasicSecurity – PEOpdracht\obj\Debug\BasicSecurity – PEOpdracht.csprojResolveAssemblyReference.cache
+E:\PXL\Basic Security\Encryption-steganography-application\BasicSecurity – PEOpdracht\BasicSecurity – PEOpdracht\obj\Debug\BasicSecurity___PEOpdracht.DecrypteerForm.resources
+E:\PXL\Basic Security\Encryption-steganography-application\BasicSecurity – PEOpdracht\BasicSecurity – PEOpdracht\obj\Debug\BasicSecurity___PEOpdracht.EncrypteerForm.resources
+E:\PXL\Basic Security\Encryption-steganography-application\BasicSecurity – PEOpdracht\BasicSecurity – PEOpdracht\obj\Debug\BasicSecurity___PEOpdracht.HomeForm.resources
+E:\PXL\Basic Security\Encryption-steganography-application\BasicSecurity – PEOpdracht\BasicSecurity – PEOpdracht\obj\Debug\BasicSecurity___PEOpdracht.Properties.Resources.resources
+E:\PXL\Basic Security\Encryption-steganography-application\BasicSecurity – PEOpdracht\BasicSecurity – PEOpdracht\obj\Debug\BasicSecurity___PEOpdracht.Settings.resources
+E:\PXL\Basic Security\Encryption-steganography-application\BasicSecurity – PEOpdracht\BasicSecurity – PEOpdracht\obj\Debug\BasicSecurity___PEOpdracht.SteganographyForm.resources
+E:\PXL\Basic Security\Encryption-steganography-application\BasicSecurity – PEOpdracht\BasicSecurity – PEOpdracht\obj\Debug\BasicSecurity – PEOpdracht.csproj.GenerateResource.Cache

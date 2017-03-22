@@ -1,0 +1,8 @@
+oranje-licht: 242,132,99
+oranje-donker: 224,82,33
+
+blauw-licht: 132,99,242
+blauw-donker: 82,33,224
+
+groen-licht: 99,242,132
+groen-donker: 33,224,82
