@@ -1,12 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace BasicSecurity___PEOpdracht
@@ -41,14 +35,14 @@ namespace BasicSecurity___PEOpdracht
             if (fileLocation != "")
             {
                 selectedFile = fileLocation;
-                selectedFileLabel.Text = "File selected: " + fileLocation;
+                selectedFileLabel.Text = "Bestand geselecteerd: " + fileLocation;
                 decryptTextButton.Enabled = true;
                 decryptFileButton.Enabled = true;
                 decryptTextBox.Enabled = true;
             }
             else
             {
-                selectedFileLabel.Text = "No file selected";
+                selectedFileLabel.Text = "Geen bestand geselecteerd";
                 selectedFile = "";
                 decryptTextButton.Enabled = false;
                 decryptFileButton.Enabled = false;
@@ -74,7 +68,6 @@ namespace BasicSecurity___PEOpdracht
                 string[] filePaths = (string[])(e.Data.GetData(DataFormats.FileDrop));
                 foreach (string fileLoc in filePaths)
                 {
-                    // Code to read the contents of the text file
                     if (File.Exists(fileLoc))
                     {
                         selectFileAction(fileLoc);
@@ -97,18 +90,18 @@ namespace BasicSecurity___PEOpdracht
             }
             else if (!File.Exists(selectedFile))
             {
-                MessageBox.Show("No file selected. Please select a file");
+                MessageBox.Show("Geen bestand geselecteerd. Kies een bestand.");
             }
             else if (!hashMatch)
             {
-                MessageBox.Show("The hash does not match or is not selected! Please select another hash");
+                MessageBox.Show("De hash matched niet of is nog niet geselecteerd!");
             }
             else if (!keyLoad)
             {
-                MessageBox.Show("There is no or a wrong key selected. Please select another key");
+                MessageBox.Show("De sleutel matched niet of is nog niet geselecteerd!");
             }
             else{
-                MessageBox.Show("No file selected. Please select a file");
+                MessageBox.Show("Geen bestand geselecteerd. Kies een bestand.");
             }
                 }
             catch (Exception ex)
@@ -116,7 +109,7 @@ namespace BasicSecurity___PEOpdracht
                 Console.WriteLine(ex.Message);
                 decryptTextBox.Text = "";
                 
-                MessageBox.Show("Something went wrong, did you select the right user to decrypt the key?");
+                MessageBox.Show("Er is iets misgegaan, is de juiste gebruiker gekozen om te decrypteren?");
             }
         }
         private void decryptFileButton_Click(object sender, EventArgs e)
@@ -131,33 +124,30 @@ namespace BasicSecurity___PEOpdracht
             }
             else if (!File.Exists(selectedFile))
             {
-                MessageBox.Show("No file selected. Please select a file");
+                MessageBox.Show("Geen bestand geselecteerd. Kies een bestand.");
             }
             else if (!keyLoad)
             {
-                MessageBox.Show("There is no or a wrong key selected. Please select another key");
+                MessageBox.Show("De sleutel matched niet of is nog niet geselecteerd!");
             }
             else if (!hashMatch)
             {
-                MessageBox.Show("The hash does not match! Please select another hash");
+                MessageBox.Show("De hash matched niet of is nog niet geselecteerd!");
             }
             else
             {
-                MessageBox.Show("Unexpected error, please try again");
+                MessageBox.Show("Er heeft zich een fout voorgedaan, probeer het opnieuw.");
             }
         }
         private void selectKeyButton_Click(object sender, EventArgs e)
         {
-            // 0 = A
-            // 1 = B
-
             if (toggleABAmbiance.Toggled == true)
             {
-                rsa.Persoon = 0; //set to A
+                rsa.Persoon = 0;
             }
             else
             {
-                rsa.Persoon = 1; //set to B
+                rsa.Persoon = 1;
             }
             openFileDialog.ShowDialog();
             if (File.Exists(openFileDialog.FileName))
@@ -165,21 +155,19 @@ namespace BasicSecurity___PEOpdracht
                 try {
                     byte[] encryptedKey = File.ReadAllBytes(openFileDialog.FileName);
                     byte[] decryptedKey = rsa.DecrypteerBericht(encryptedKey);
-                   // byte[] decryptedBytes = new byte[decryptedKey.Length * sizeof(char)];
-                    //System.Buffer.BlockCopy(decryptedKey.ToCharArray(), 0, decryptedBytes, 0, decryptedBytes.Length);
                     des.Key = decryptedKey;
                 
-                selectKeyLabel.Text = "Key loaded";
+                selectKeyLabel.Text = "De sleutel matched.";
                 keyLoad = true;
                 }
                 catch (Exception ex)
                 {
-                    selectKeyLabel.Text = "Error with key selection, please try again";
+                    selectKeyLabel.Text = "Fout bij de sleutel selecteren, probeer het opnieuw.";
                     keyLoad = false;
                 }
             }
             else { 
-                selectKeyLabel.Text = "No key loaded";
+                selectKeyLabel.Text = "Geen sleutel ingeladen.";
                 keyLoad = false;
             }
 
@@ -187,8 +175,8 @@ namespace BasicSecurity___PEOpdracht
 
         private void toggleABAmbiance_ToggledChanged()
         {
-            selectKeyLabel.Text = "No selected key";
-            selectHashLabel.Text = "No selected hash";
+            selectKeyLabel.Text = "Geen sleutel geselecteerd.";
+            selectHashLabel.Text = "Geen hash geselecteerd.";
             keyLoad = false;
             hashMatch = false;
         }
@@ -202,11 +190,11 @@ namespace BasicSecurity___PEOpdracht
         {
             if (toggleABAmbiance.Toggled == true)
             {
-                rsa.Persoon = 0; //set to A
+                rsa.Persoon = 0;
             }
             else
             {
-                rsa.Persoon = 1; //set to B
+                rsa.Persoon = 1;
             }
             openFileDialog.ShowDialog();
             if (File.Exists(openFileDialog.FileName) && File.Exists(selectedFile))
@@ -217,24 +205,24 @@ namespace BasicSecurity___PEOpdracht
                     byte[] hash = File.ReadAllBytes(openFileDialog.FileName);
                     if (rsa.RSAVerifySign(hash, data))
                     {
-                        selectHashLabel.Text = "Hash matches!";
+                        selectHashLabel.Text = "De hash matched!";
                         hashMatch = true;
                     }
                     else
                     {
-                        selectHashLabel.Text = "Hash does not match! Please select another file";
+                        selectHashLabel.Text = "De hash matched niet. Probeer het opnieuw!";
                         hashMatch = false;
                     }
                 }
                 catch (Exception ex)
                 {
-                    selectHashLabel.Text = "Error with hash selection, please try again";
+                    selectHashLabel.Text = "Fout bij de hash selecteren. Probeer het opnieuw!";
                     hashMatch = false;
                 }
             }
             else
             {
-                selectHashLabel.Text = "No Hash loaded";
+                selectHashLabel.Text = "Geen hash ingeladen.";
                 hashMatch = false;
             }
         }

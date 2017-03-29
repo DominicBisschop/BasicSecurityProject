@@ -126,11 +126,11 @@
             this.ambiance_Label1.BackColor = System.Drawing.Color.Transparent;
             this.ambiance_Label1.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.ambiance_Label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(76)))), ((int)(((byte)(77)))));
-            this.ambiance_Label1.Location = new System.Drawing.Point(23, 56);
+            this.ambiance_Label1.Location = new System.Drawing.Point(12, 60);
             this.ambiance_Label1.Name = "ambiance_Label1";
-            this.ambiance_Label1.Size = new System.Drawing.Size(110, 20);
+            this.ambiance_Label1.Size = new System.Drawing.Size(125, 20);
             this.ambiance_Label1.TabIndex = 1;
-            this.ambiance_Label1.Text = "Gedeelde map:";
+            this.ambiance_Label1.Text = "Keys map locatie:";
             // 
             // ambianceControlBox
             // 

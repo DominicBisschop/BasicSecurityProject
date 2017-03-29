@@ -1,12 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace BasicSecurity___PEOpdracht
@@ -27,7 +21,7 @@ namespace BasicSecurity___PEOpdracht
             this.DragEnter += messageTextbox_DragEnter;
             this.DragDrop += messageTextbox_DragDrop;
 
-            toolTip.SetToolTip(ambianceThemeContainer, "Drag & drop a file here to read from it");
+            toolTip.SetToolTip(ambianceThemeContainer, "Sleep een bestand naar hier om het in te lezen.");
 
             des = new DES();
             rsa = new RSA();
@@ -58,11 +52,8 @@ namespace BasicSecurity___PEOpdracht
                 }
 
                 System.IO.FileStream _FileStream = new System.IO.FileStream(Properties.Settings.Default.SharedFolder + textFile, System.IO.FileMode.Create, System.IO.FileAccess.Write);
-             //   writer = new StreamWriter(Properties.Settings.Default.SharedFolder + textFile);
                 _FileStream.Write(encryptedData, 0, encryptedData.Length);
-              //  writer.Write(encryptedData);
                 _FileStream.Close();
-               // writer.Close();
 
                 _FileStream = new System.IO.FileStream(Properties.Settings.Default.SharedFolder + keyFile, System.IO.FileMode.Create, System.IO.FileAccess.Write);
                 _FileStream.Write(encryptedKey, 0, encryptedKey.Length);
@@ -75,7 +66,7 @@ namespace BasicSecurity___PEOpdracht
             }
             catch (Exception ex)
             {
-                errorLabel.Text = "An error has occured: " + ex.Message;
+                errorLabel.Text = "Er heeft zich een fout voorgedaan: " + ex.Message;
             }
         }
 
@@ -129,7 +120,6 @@ namespace BasicSecurity___PEOpdracht
                 string[] filePaths = (string[])(e.Data.GetData(DataFormats.FileDrop));
                 foreach (string fileLoc in filePaths)
                 {
-                    // Code to read the contents of the text file
                     if (File.Exists(fileLoc))
                     {
                         using (TextReader tr = new StreamReader(fileLoc))
@@ -168,18 +158,12 @@ namespace BasicSecurity___PEOpdracht
                 byte[] encryptedKey = rsa.EncrypteerBericht(des.Key);
 
                 System.IO.FileStream _FileStream = new System.IO.FileStream(Properties.Settings.Default.SharedFolder + textFile, System.IO.FileMode.Create, System.IO.FileAccess.Write);
-                //   writer = new StreamWriter(Properties.Settings.Default.SharedFolder + textFile);
                 _FileStream.Write(encryptedData, 0, encryptedData.Length);
-                //  writer.Write(encryptedData);
                 _FileStream.Close();
-                // writer.Close();
                 _FileStream = new System.IO.FileStream(Properties.Settings.Default.SharedFolder + keyFile, System.IO.FileMode.Create, System.IO.FileAccess.Write);
-                // writer = new StreamWriter(Properties.Settings.Default.SharedFolder + keyFile);
-
-                // writer.Write(encryptedKey);
+                
                 _FileStream.Write(encryptedKey, 0, encryptedKey.Length);
                 _FileStream.Close();
-                //  writer.Close();
             }
         }
 

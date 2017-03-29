@@ -63,7 +63,6 @@
             // 
             this.settingsButton.BackColor = System.Drawing.Color.Transparent;
             this.settingsButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.settingsButton.Enabled = false;
             this.settingsButton.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.settingsButton.Image = ((System.Drawing.Image)(resources.GetObject("settingsButton.Image")));
             this.settingsButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;

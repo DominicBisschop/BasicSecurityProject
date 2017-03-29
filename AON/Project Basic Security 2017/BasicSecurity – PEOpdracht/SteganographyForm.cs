@@ -25,7 +25,7 @@ namespace BasicSecurity___PEOpdracht
         {
             if (toEncrypt.Text == "")
             {
-                MessageBox.Show("Please enter some text to encrypt in the image. ");
+                MessageBox.Show("Geef een tekst in om te encrypteren in de foto.");
             }
             else
             {
@@ -43,7 +43,7 @@ namespace BasicSecurity___PEOpdracht
                 }
                 else
                 {
-                    MessageBox.Show("No picture to save. Please select a picture.");
+                    MessageBox.Show("Geen foto om op te slaan. Kies een foto.");
                 }
             }
         }
@@ -52,18 +52,12 @@ namespace BasicSecurity___PEOpdracht
         {
             if (pictureIsSelected)
             {
-               // try
-               // {
-                //TODO: PAS DE TEXT DIE GEENCRYPTEERD WORDT AAN ZODAT ER EEN SPECIALE CODE VOORGEPLAATST WORDT -> ZO KAN ER GECHECKT WORDEN OF DE AANGEDUIDE FOTO GENCRYPTEERD IS OF NIET
-                   // toEncrypt.Text = SteganographyClass.extractText((Bitmap)thePicture.Image);
-              //  if (SteganographyClass.extractText((Bitmap)thePicture.Image).ToString()
-                //
-                    string decrypt = SteganographyClass.extractText((Bitmap)thePicture.Image);
-                    string sdecrypt = Encoding.ASCII.GetString(Encoding.ASCII.GetBytes(decrypt));
-                    if (decrypt== sdecrypt)
-                    {
-                        toEncrypt.Text = decrypt;
-                    }
+                string decrypt = SteganographyClass.extractText((Bitmap)thePicture.Image);
+                string sdecrypt = Encoding.ASCII.GetString(Encoding.ASCII.GetBytes(decrypt));
+                if (decrypt== sdecrypt)
+                {
+                    toEncrypt.Text = decrypt;
+                }
                 
             }
             
@@ -71,22 +65,16 @@ namespace BasicSecurity___PEOpdracht
         }
 
         private void fileButton_Click(object sender, EventArgs e)
-        {
-           
-            OpenFileDialog openFileDialog = new OpenFileDialog();
-            //openFileDialog.Filter = "PNG files|*.png|JPG Files|*.jpg |BMP Files|*.bmp";            
+        {           
+            OpenFileDialog openFileDialog = new OpenFileDialog();         
 
             if (openFileDialog.ShowDialog()== DialogResult.OK)
-            {
-                
+            {                
                 thePicture.ImageLocation = openFileDialog.FileName;
                 pictureIsSelected = true;
                 thePicture.Refresh();
-                maxSizeLabel.Text = berekenMaxSize().ToString() + " characters";
-
-            }
-            
-
+                maxSizeLabel.Text = berekenMaxSize().ToString() + " karakters"; //<- characters
+            }            
         }
 
         public enum State
@@ -107,12 +95,9 @@ namespace BasicSecurity___PEOpdracht
         {
             if (pictureIsSelected)
             {
-                //maxSizeLabel.Text = berekenMaxSize().ToString() + " karakters.";
                 currentSizeLabel.Text = toEncrypt.Text.Length.ToString();
             }
-        }
-      
-        
+        }      
 
         private void toEncrypt_KeyDown(object sender, KeyEventArgs e)
         {
