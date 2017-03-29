@@ -37,3 +37,6 @@ E:\PXL\Basic Security\Encryption-steganography-application\BasicSecurity – PEO
 E:\PXL\Basic Security\Encryption-steganography-application\BasicSecurity – PEOpdracht\BasicSecurity – PEOpdracht\obj\Debug\BasicSecurity___PEOpdracht.Settings.resources
 E:\PXL\Basic Security\Encryption-steganography-application\BasicSecurity – PEOpdracht\BasicSecurity – PEOpdracht\obj\Debug\BasicSecurity___PEOpdracht.SteganographyForm.resources
 E:\PXL\Basic Security\Encryption-steganography-application\BasicSecurity – PEOpdracht\BasicSecurity – PEOpdracht\obj\Debug\BasicSecurity – PEOpdracht.csproj.GenerateResource.Cache
+E:\PXL\Basic Security\Project\BasicSecurityProject\AON\Project Basic Security Stephan\BasicSecurity – PEOpdracht\BasicSecurity – PEOpdracht\bin\Debug\BasicSecurity – PEOpdracht.exe.config
+E:\PXL\Basic Security\Project\BasicSecurityProject\AON\Project Basic Security Stephan\BasicSecurity – PEOpdracht\BasicSecurity – PEOpdracht\obj\Debug\BasicSecurity – PEOpdracht.exe
+E:\PXL\Basic Security\Project\BasicSecurityProject\AON\Project Basic Security Stephan\BasicSecurity – PEOpdracht\BasicSecurity – PEOpdracht\obj\Debug\BasicSecurity – PEOpdracht.pdb
