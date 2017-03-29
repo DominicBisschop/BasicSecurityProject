@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EncrypteerForm));
             this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
             this.ambianceThemeContainer = new Ambiance.Ambiance_ThemeContainer();
@@ -222,6 +223,7 @@
             this.ClientSize = new System.Drawing.Size(698, 432);
             this.Controls.Add(this.ambianceThemeContainer);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimumSize = new System.Drawing.Size(261, 65);
             this.Name = "EncrypteerForm";

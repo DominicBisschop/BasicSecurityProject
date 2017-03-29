@@ -31,6 +31,11 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>
+    </ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup />
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -124,6 +129,8 @@
   <ItemGroup>
     <Content Include="Resources\decrypt.jpg" />
     <Content Include="Resources\encrypt.jpg" />
+    <Content Include="Resources\lock-icon.ico" />
+    <Content Include="Resources\lock.ico" />
     <Content Include="Resources\settings.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

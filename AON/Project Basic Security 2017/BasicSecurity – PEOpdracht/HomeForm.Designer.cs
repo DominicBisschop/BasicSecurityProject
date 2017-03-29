@@ -62,6 +62,8 @@
             // settingsButton
             // 
             this.settingsButton.BackColor = System.Drawing.Color.Transparent;
+            this.settingsButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.settingsButton.Enabled = false;
             this.settingsButton.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.settingsButton.Image = ((System.Drawing.Image)(resources.GetObject("settingsButton.Image")));
             this.settingsButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -76,6 +78,8 @@
             // 
             this.steganografieButton.BackColor = System.Drawing.Color.Transparent;
             this.steganografieButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.steganografieButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.steganografieButton.Enabled = false;
             this.steganografieButton.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.steganografieButton.Image = ((System.Drawing.Image)(resources.GetObject("steganografieButton.Image")));
             this.steganografieButton.ImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -89,6 +93,7 @@
             // decrypteerButton
             // 
             this.decrypteerButton.BackColor = System.Drawing.Color.Transparent;
+            this.decrypteerButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.decrypteerButton.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.decrypteerButton.Image = ((System.Drawing.Image)(resources.GetObject("decrypteerButton.Image")));
             this.decrypteerButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -102,6 +107,7 @@
             // encrypteerButton
             // 
             this.encrypteerButton.BackColor = System.Drawing.Color.Transparent;
+            this.encrypteerButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.encrypteerButton.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.encrypteerButton.Image = ((System.Drawing.Image)(resources.GetObject("encrypteerButton.Image")));
             this.encrypteerButton.ImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -131,6 +137,7 @@
             this.ClientSize = new System.Drawing.Size(567, 601);
             this.Controls.Add(this.ambianceThemeContainer);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimumSize = new System.Drawing.Size(261, 65);
             this.Name = "HomeForm";

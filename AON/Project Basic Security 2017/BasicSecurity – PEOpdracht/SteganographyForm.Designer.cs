@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SteganographyForm));
             this.ambiance_ThemeContainer1 = new Ambiance.Ambiance_ThemeContainer();
             this.maxSizeLabel = new Ambiance.Ambiance_Label();
             this.ambiance_Label4 = new Ambiance.Ambiance_Label();
@@ -230,6 +231,7 @@
             this.ClientSize = new System.Drawing.Size(702, 500);
             this.Controls.Add(this.ambiance_ThemeContainer1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MinimumSize = new System.Drawing.Size(261, 65);
             this.Name = "SteganographyForm";
             this.Text = "Steganografie";

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DecrypteerForm));
             this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
             this.ambianceThemeContainer = new Ambiance.Ambiance_ThemeContainer();
             this.ambianceControlBox = new Ambiance.Ambiance_ControlBox();
@@ -244,6 +245,7 @@
             this.ClientSize = new System.Drawing.Size(516, 556);
             this.Controls.Add(this.ambianceThemeContainer);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimumSize = new System.Drawing.Size(261, 65);
             this.Name = "DecrypteerForm";
