@@ -78,7 +78,6 @@
             this.steganografieButton.BackColor = System.Drawing.Color.Transparent;
             this.steganografieButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.steganografieButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.steganografieButton.Enabled = false;
             this.steganografieButton.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.steganografieButton.Image = ((System.Drawing.Image)(resources.GetObject("steganografieButton.Image")));
             this.steganografieButton.ImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
